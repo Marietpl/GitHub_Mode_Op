@@ -21,8 +21,9 @@ Apprendre à :
 ---
 
 ## 1. Comprendre les outils
+
 | Outil	| Rôle |
-|-------/------/
+|-------|-------|
 | Git	| Gère l’historique du projet en local |
 | GitHub | Stocke ton projet en ligne (sauvegarde + partage) |
 | VS Code |	Éditeur de fichiers |
