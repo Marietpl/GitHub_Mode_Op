@@ -48,10 +48,11 @@ Apprendre à :
 Ouvre Git Bash :
 
 `git config --global user.name "TonNomGitHub"`
+
 `git config --global user.email "TonEmailGitHub"`
 
 
-Vérifier :
+Vérifier la configuration :
 
 `git config --global --list`
 
@@ -60,19 +61,19 @@ Vérifier :
 ## 4. Workflow global (méthode pro simple)
 A répéter à chaque cycle de travail
 
-`git pull` (récupérer ce qui existe, évite de ne pas travailler sur une version non à jour)
+- `git pull` (récupérer ce qui existe, évite de ne pas travailler sur une version non à jour)
 
 Modifier des fichiers dans VS Code
 
-`git add` (dire quels fichiers garder après add ou mettre "add .")
+- `git add` (dire quels fichiers garder après add ou mettre "add .")
 
-`git commit -m "ajouter le message lié à la modification"` (sauvegarder version locale)
+- `git commit -m "ajouter le message lié à la modification"` (sauvegarder version locale)
 
-`git push` (envoyer sur GitHub)
+- `git push` (envoyer sur GitHub)
 
 Règle d’or :
 
-*Toujours `Pull` avant de travailler*
+*Toujours entrer le code `Pull` avant de travailler*
 
 ---
 
